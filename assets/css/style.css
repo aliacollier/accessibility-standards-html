@@ -102,6 +102,10 @@ and changes of color for background and text.
     color: #ffffff;
 }
 
+.hero-section{
+    position: relative;
+}
+
 /* Makes entire div and its properties set to the left. */
 .float-left {
     float: left;
@@ -130,8 +134,10 @@ and changes of color for background and text.
 BEGIN CSS for BENEFITS SECTION:
 Changes font of entire Benefits box and its position on the html page.
 */
+.benefit-section {
+    position: relative; bottom: 960px;
+}
 .benefits {
-    position: relative;
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -140,6 +146,7 @@ Changes font of entire Benefits box and its position on the html page.
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    
 }
 
 /* Changes text to white with a bottom margin */
