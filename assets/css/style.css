@@ -21,18 +21,24 @@ Adds padding, changes font, and adds color to background & text
     color: #ffffff;
 }
 
-/**/
+/* Displays all h1 elements to inline block and changes font size */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/**/
+/* Changes text color */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
 /**/
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+/* Floats entire header div to top right of page with some font changes !!!! cnanging this will help with misplaced header div!!!!*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -128,6 +134,11 @@ Displays in block form with a set margin and maximum width
 /*
 BEGIN CSS for BENEFITS SECTION:
 */
+.benefit-section{
+    
+}
+
+/**/
 .benefits {
     margin-right: 20px;
     padding: 20px;
