@@ -12,7 +12,7 @@ body {
 
 /* 
 BEGIN CSS for HEADER: 
-Adds padding, changes font, and adds color to background & text 
+Adds padding, changes font, and adds color to background & text.
 */
 .header {
     padding: 20px;
@@ -32,7 +32,7 @@ Adds padding, changes font, and adds color to background & text
     color: #d9dcd6;
 }
 
-/**/
+/* Forces text to show in the blue field in top right cornor of page. */
 header nav {
     float: right;
     margin: 7px 0;
@@ -47,12 +47,12 @@ header nav {
     font-size: 20px;
 }
 
-/**/
+/* No default content of the listed items*/
 .header div ul {
     list-style-type: none;
 }
 
-/**/
+/* Changes the way the listed items are displayed with an added margin. */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
@@ -72,7 +72,7 @@ p {
 
 /* 
 BEGIN CSS for HERO SECTION: 
-Displays in block form with a set margin and maximum width 
+Displays image in block form with a set margin and maximum width. 
 */
 .hero {
     height: 800px;
@@ -82,34 +82,17 @@ Displays in block form with a set margin and maximum width
     background-size: cover;
     background-position: center;
 }
-
-/**/
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-/**/
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-/**/
+/* */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/**/
-.benefit-div img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Adds margin & padding, change in font, and changes of color for background and text. */
+/* 
+Adds margin & padding, change in font, 
+and changes of color for background and text. 
+*/
 .hero-section-div {
     margin-bottom: 20px;
     padding: 50px;
@@ -117,6 +100,18 @@ Displays in block form with a set margin and maximum width
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+}
+
+/* Makes entire div and its properties set to the left. */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Makes entire div and its properties set to the right. */
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 /* Adding height to container that will also allow overflow*/
@@ -133,13 +128,10 @@ Displays in block form with a set margin and maximum width
 
 /*
 BEGIN CSS for BENEFITS SECTION:
+Changes font of entire Benefits box and its position on the html page.
 */
-.benefit-section{
-    
-}
-
-/**/
 .benefits {
+    position: relative;
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -150,16 +142,23 @@ BEGIN CSS for BENEFITS SECTION:
     background-color: #2589bd;
 }
 
-/**/
+/* Changes text to white with a bottom margin */
 .benefit-div {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/**/
+/* Creates a margin with the text aligned in the center for h3 elements */
 .benefit-div h3 {
     margin-bottom: 10px;
     text-align: center;
+}
+
+/* Sizes all images inside of Benefit section */
+.benefit-div img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 /* END CSS for BENEFITS SECTION */
 
