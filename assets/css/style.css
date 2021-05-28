@@ -135,7 +135,8 @@ BEGIN CSS for BENEFITS SECTION:
 Changes font of entire Benefits box and its position on the html page.
 */
 .benefit-section {
-    position: relative; bottom: 960px;
+    position: relative;
+    bottom: 960px;
 }
 .benefits {
     margin-right: 20px;
